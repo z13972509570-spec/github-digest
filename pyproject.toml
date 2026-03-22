@@ -1,0 +1,7 @@
+[project]
+name = "github-digest"
+version = "2.0.0"
+dependencies = ["httpx", "beautifulsoup4", "rich", "click", "pydantic"]
+
+[project.scripts]
+github-digest = "github_digest.cli:cli"
